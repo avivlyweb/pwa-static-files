@@ -1,0 +1,51 @@
+{
+  "short_name": "PT Charlie",
+  "name": "PT Charlie - Virtual Physical Therapist",
+  "description": "PT Charlie is your virtual physical therapist specializing in chronic low back pain.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#6a11cb",
+  "orientation": "portrait",
+  "shortcuts": [
+    {
+      "name": "Back Pain Exercises",
+      "short_name": "Exercises",
+      "description": "Get exercises for back pain",
+      "url": "/exercises?source=pwa",
+      "icons": [
+        {
+          "src": "/icons/exercises-icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Consult a Therapist",
+      "short_name": "Consult",
+      "description": "Chat with PT Charlie",
+      "url": "/consult?source=pwa",
+      "icons": [
+        {
+          "src": "/icons/consult-icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
